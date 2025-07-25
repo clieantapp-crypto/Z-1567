@@ -4,7 +4,13 @@ import { getDatabase } from "firebase/database";
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-};
+  apiKey: "AIzaSyCxfQn65itRa9CsfW76WyeVCLQZWXM05ko",
+  authDomain: "zxzx-30823.firebaseapp.com",
+  projectId: "zxzx-30823",
+  storageBucket: "zxzx-30823.firebasestorage.app",
+  messagingSenderId: "330613674822",
+  appId: "1:330613674822:web:34af538269d069741acb47",
+  measurementId: "G-V1K9MCG17E"};
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 const db = getFirestore(app);
